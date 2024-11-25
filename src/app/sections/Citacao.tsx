@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Citacao() {
   return (
-    <div className="relative  md:mb-20 mt-6 md:mt-0">
+    <section className="relative  md:mb-20 mt-6 md:mt-0">
       <Image
         src={ImageMid}
         alt="Casal"
@@ -23,6 +23,6 @@ export default function Citacao() {
           </span>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
