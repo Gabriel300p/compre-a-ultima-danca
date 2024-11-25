@@ -57,10 +57,10 @@ export default function Sinopse() {
       <button
         aria-label="Scroll para o início"
         onClick={scrollToTop}
-        className="bg-button-gradient p-6 md:p-12 flex justify-center items-center gap-4 md:gap-8 text-white font-bold text-2xl md:text-5xl rounded-xl md:rounded-3xl w-full text-center hover:opacity-75 transition-opacity duration-300 ease-in-out"
+        className="bg-button-gradient p-6 md:p-12 flex justify-center items-center gap-4 md:gap-8 text-white font-bold text-xl md:text-5xl rounded-xl md:rounded-3xl w-full text-center hover:opacity-75 transition-opacity duration-300 ease-in-out"
       >
         COMPRE O LIVRO FÍSICO
-        <Image src={Arrow} alt="flecha" className="w-8 md:w-16 " />
+        <Image src={Arrow} alt="flecha" className="w-6 md:w-16 " />
       </button>
     </section>
   );
