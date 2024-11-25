@@ -4,10 +4,10 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <header className="p-5 md:p-16 flex md:flex-row flex-col items-center gap-8 md:gap-12 2xl:gap-20">
+      <header className="p-4 md:p-16 flex md:flex-row flex-col items-center gap-8 md:gap-12 2xl:gap-20">
         <Image src={Capa} alt="logo" className="w-[80%] md:w-1/3" />
         <div className="flex flex-col justify-center items-center gap-8 md:gap-20 2xl:gap-24">
-          <h1 className="text-primary text-[22px] md:text-4xl xl:text-5xl font-bold font-helvetica text-center md:text-pretty !leading-tight">
+          <h1 className="text-primary text-[21px] md:text-4xl xl:text-5xl font-bold font-helvetica text-center md:text-pretty !leading-tight">
             &quot;Às vezes, não importa quão alta seja a música ao nosso redor,
             é o coração que <br />
             dá o ritmo certo para seguir em frente.&quot;
