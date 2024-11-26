@@ -1,4 +1,5 @@
 import Capa from "@/assets/capa-livro.jpeg";
+import ProgressHero from "@/components/ProgressHero";
 import Image from "next/image";
 
 export default function Hero() {
@@ -6,7 +7,7 @@ export default function Hero() {
     <>
       <header className="p-3 md:p-16 flex md:flex-row flex-col items-center gap-8 md:gap-12 2xl:gap-20">
         <Image src={Capa} alt="logo" className="w-[80%] md:w-1/3" />
-        <div className="flex flex-col justify-center items-center gap-8 md:gap-20 2xl:gap-24">
+        <div className="flex flex-col justify-center items-center gap-8 md:gap-20 2xl:gap-20">
           <h1 className="text-primary text-lg md:text-4xl xl:text-5xl font-bold font-helvetica text-center md:text-pretty !leading-tight">
             &quot;Às vezes, não importa quão alta seja a música ao nosso redor,
             é o coração que <br />
@@ -32,6 +33,7 @@ export default function Hero() {
               COMPRE NA AMAZON
             </a>
           </div>
+          <ProgressHero />
         </div>
       </header>
     </>
