@@ -38,8 +38,9 @@ const ProgressHero = () => {
 
   return (
     <div className="w-full flex flex-col items-center gap-3">
-      <h4 className="text-primary text-xs md:text-lg font-bold font-helvetica text-center">
-        OS PRIMEIROS 50 LIVROS VÃO COM BRINDES! CORRE PARA APROVEITAR!{" "}
+      <h4 className="text-primary text-sm md:text-lg font-bold font-helvetica text-center">
+        OS PRIMEIROS 50 LIVROS VÃO COM BRINDES! <br className="md:hidden" />
+        <span className="text-2xl md:text-lg "> CORRE PARA APROVEITAR!</span>
       </h4>
 
       <Progress value={(progress / 49) * 100} />
