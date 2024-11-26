@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Progress } from "./ui/progress";
 
 const ProgressHero = () => {
-  const [progress, setProgress] = useState(12);
+  const [progress, setProgress] = useState(44);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
