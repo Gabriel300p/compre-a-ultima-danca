@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="flex flex-col gap-5 w-full px-5">
             <a
               type="button"
-              href="https://www.xn--aultimadana-v9a.com/produtos/livro-a-ultima-danca-pre-venda/"
+              href="https://infinitydragonbook.lojavirtualnuvem.com.br/"
               target="_blank"
               rel="noreferrer"
               className="bg-primary p-6 md:px-12 md:py-10 text-white font-bold text-xl md:text-3xl 2xl:text-5xl rounded-xl md:rounded-3xl w-full text-center hover:bg-fuchsia-600 transition-colors duration-300 ease-in-out"
@@ -25,7 +25,7 @@ export default function Hero() {
             </a>
             <a
               type="button"
-              href="https://www.amazon.com.br/Compre-a-%C3%BAltima-d%C3%A2ncia-Eduardo-Alves/dp/8546000002"
+              href="https://amzn.to/4gelUKz"
               target="_blank"
               rel="noreferrer"
               className="bg-tertiary p-6 md:px-12 md:py-10 text-white font-bold text-xl md:text-3xl 2xl:text-5xl rounded-xl md:rounded-3xl w-full text-center hover:bg-purple-700 transition-colors duration-300 ease-in-out"
