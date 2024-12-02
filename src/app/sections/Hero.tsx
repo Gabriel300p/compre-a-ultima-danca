@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="flex flex-col gap-5 w-full px-5">
             <a
               type="button"
-              href="https://infinitydragonbook.lojavirtualnuvem.com.br/"
+              href="https://infinitydragonbook.lojavirtualnuvem.com.br/produtos/livro-a-ultima-danca-pre-venda/"
               target="_blank"
               rel="noreferrer"
               className="bg-primary p-6 md:px-12 md:py-10 text-white font-bold text-xl md:text-3xl 2xl:text-5xl rounded-xl md:rounded-3xl w-full text-center hover:bg-fuchsia-600 transition-colors duration-300 ease-in-out"
