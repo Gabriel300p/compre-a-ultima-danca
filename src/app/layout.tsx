@@ -1,4 +1,4 @@
-// import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -33,6 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="scroll-smooth">
+      <GoogleAnalytics gaId="G-65F6D3FMH6" />
       <body
         className={`${helvetica.variable} ${streamer.variable} antialiased`}
       >
