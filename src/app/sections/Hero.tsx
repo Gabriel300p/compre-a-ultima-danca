@@ -1,5 +1,5 @@
 import Capa from "@/assets/capa-livro.jpeg";
-import ProgressHero from "@/components/ProgressHero";
+// import ProgressHero from "@/components/ProgressHero";
 import Image from "next/image";
 
 export default function Hero() {
@@ -30,10 +30,10 @@ export default function Hero() {
               rel="noreferrer"
               className="bg-tertiary p-6 md:px-12 md:py-10 text-white font-bold text-xl md:text-3xl 2xl:text-5xl rounded-xl md:rounded-3xl w-full text-center hover:bg-purple-700 transition-colors duration-300 ease-in-out"
             >
-              COMPRE NA AMAZON
+              LEIA AGORA NA AMAZON
             </a>
           </div>
-          <ProgressHero />
+          {/* <ProgressHero /> */}
         </div>
       </header>
     </>
